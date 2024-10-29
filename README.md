@@ -22,7 +22,7 @@ InsightForge is a multi-agent, LLM-based project designed to automate the proces
 
 ### Prerequisites
 
-- Python 3.8 or later
+- Python 3.10
 - API keys for Serper API
 - Access to Google Gemini model for agent responses
 
@@ -43,17 +43,15 @@ InsightForge is a multi-agent, LLM-based project designed to automate the proces
    - Create a `.env` file in the root directory with the following details:
      ```plaintext
      SERPER_API_KEY=your_serper_api_key
-     GEMINI_API_KEY=your_google_gemini_api_key
+     GOOGLE_API_KEY=your_google_gemini_api_key
      ```
 
-4. **Configure Agent Settings**
-   - Adjust agent behavior (e.g., search depth, article length) in `config.py`.
 
 ### Running the Project
 
 1. **Start the Research and Writing Process**
     ```bash
-    python main.py --topic "Your chosen topic"
+    python crew.py --topic "Your chosen topic"
     ```
 
    - The researcher agent will conduct searches on the specified topic, summarize findings, and pass these to the writer agent for article composition.
