@@ -30,7 +30,7 @@ InsightForge is a multi-agent, LLM-based project designed to automate the proces
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/InsightForge.git
+    git clone https://github.com/MaazLab/InsightForge.git
     cd InsightForge
     ```
 
